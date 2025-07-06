@@ -76,6 +76,14 @@ Design a pipelined logic processing unit that:
 
 ---
 
+## 🧱 Block Diagram
+
+Below is the architectural view of the pipelined logic unit:
+
+![Block Diagram](https://github.com/obulsai/bitwise-pipeline-unit-/blob/4212e1d3753df6cb5d28464ae8da092ccdb70a2e/Pipeline_design_pic/block_diagram.png?raw=true)
+
+---
+
 ## 🧪 Simulation Output
 
 The waveform below shows how `valid_out` goes high when the pipelined values of E and F match:
@@ -88,12 +96,14 @@ The waveform below shows how `valid_out` goes high when the pipelined values of 
 
 ```plaintext
 bitwise-pipeline-unit-/
-├── pipelining.v               # 3-stage pipelined logic module
+├── pipelining.v                    # 3-stage pipelined logic module
 ├── RTL design/
-│   └── RTL DESIGN.png         # Pipeline architecture diagram
+│   └── RTL DESIGN.png              # Gate-level RTL architecture
 ├── Simulation/
-│   └── Simulation_1.png       # Functional waveform output
-├── README.md                  # Project documentation
+│   └── Simulation_1.png           # Simulation waveform
+├── Pipeline_design_pic/
+│   └── block_diagram.png          # Pipelining block diagram
+├── README.md                       # Project documentation
 ```
 
 ---
