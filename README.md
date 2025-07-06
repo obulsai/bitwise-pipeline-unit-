@@ -101,7 +101,7 @@ bitwise-pipeline-unit-/
 ## 👨‍💻 Author
 
 **T. Obul Sai**  
-B.Tech 3rd Year, ECE  
+B.Tech 4th Year, ECE  
 RGUKT RK Valley  
 📧 Email: obulsai187@gmail.com  
 🔗 [LinkedIn](https://www.linkedin.com/in/obul-sai-922643251)
